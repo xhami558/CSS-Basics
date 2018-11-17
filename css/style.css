@@ -1,38 +1,89 @@
+/* Type Selectors ------------------ */
 
 body {
   color: #878787;
   margin: 0;
+  font-size: 150%;
 }
 
-h1{
+h1 {  
   font-size: 90px;
   color: white;
+  text-transform: uppercase;
 }
 
-.main-header {
-  background-color: orange;
-  font-size: 20px;
-}
-
-h2{
+h2 {
   font-size: 53px;
+  text-decoration: underline;
 }
 
 h3 {
   font-size: 20px;
-  color: 48525c;
+  color: #48525c;
 }
 
-#primary-content {
-  text-align: center;
+/* Pseudo-classes ------------------ */
+
+a:link {
+  color: orange;
 }
 
-.secondary-content{
-  border-top: 2px solid lightgray;
+a:visited {
+  color: lightblue;
 }
+
+a:hover {
+  color: forestgreen;
+}
+
+a:active {
+  color: lightcoral;
+}
+
+/* ID Selectors -------------------- */
 
 #main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom: solid 10px orange;
 }
+
+/* Class Selectors ----------------- */
+
+.main-header {
+  background-color: orange;
+}
+
+.title {
+  color: white;
+  font-size: 26px;
+}
+
+.primary-content,
+.secondary-content {
+  width: 60%;
+}
+
+.primary-content,
+.main-header {
+  text-align: center;
+}
+
+.t-border {
+  border-top: 2px solid lightgrey; /* Top border styles */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
