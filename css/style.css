@@ -62,6 +62,7 @@ a:active {
 .primary-content,
 .secondary-content {
   width: 60%;
+  margin: auto;
 }
 
 .primary-content,
@@ -75,9 +76,19 @@ a:active {
 
 
 /* Layout Styles */
+
+
 .primary-content,
 .secondary-content {
   width: 60%;
+}
+
+.callout {
+  font-size: 1.2em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;
 }
 
 .wildlife {
@@ -85,6 +96,7 @@ a:active {
   background-color: #434a52;
   padding: 18% 24%;
   border-top: 10px solid orange;
+  margin: 105px 0 60px;
 }
 
 
