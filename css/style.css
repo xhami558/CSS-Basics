@@ -74,8 +74,18 @@ a:active {
 }
 
 
+/* Layout Styles */
+.primary-content,
+.secondary-content {
+  width: 60%;
+}
 
-
+.wildlife {
+  color: white;
+  background-color: #434a52;
+  padding: 18% 24%;
+  border-top: 10px solid orange;
+}
 
 
 
